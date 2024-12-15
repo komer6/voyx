@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: #6A0DAD; /* Purple theme */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header img {
+    width: 100%; /* Full width of the container */
+    max-height: 300px;
+    object-fit: cover; /* Ensures image fits container while maintaining aspect ratio */
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
