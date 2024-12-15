@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: white;
-    color: #6A0DAD; /* Purple theme */
+    color: #000000; 
     margin: 0;
     padding: 0;
 }
@@ -13,9 +13,9 @@ header {
 }
 
 header img {
-    width: 100%; /* Full width of the container */
+    width: 100%; 
     max-height: 300px;
-    object-fit: cover; /* Ensures image fits container while maintaining aspect ratio */
+    object-fit: cover; 
 }
 
 .content {
