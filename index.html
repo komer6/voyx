@@ -115,9 +115,21 @@
 
         <p>Thank you,</p>
         <p>NCR Voyix Marketing</p>
-        <P><a href ="https://www.youtube.com/watch?v=FqdmWQ-ACv0&t=2s">submission link</a></P>
-    </div>
-
+        <p id="rick">
+            <button onclick="replaceWithVideo()">Submission Form</button>
+        </p>
+        
+        <script>
+            function replaceWithVideo() {
+                const rick = document.getElementById('rick');
+                rick.innerHTML = `
+                    <video width="320" height="240" autoplay controls loop>
+                        <source src="rickro.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                `;
+            }
+        </script>
 </body>
 
 </html>

@@ -7,6 +7,24 @@ body {
     padding: 0;
 }
 
+button {
+    background-color: white; /* White background */
+    color: purple; /* Purple text */
+    border: 2px solid purple; /* Purple border */
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+button:hover {
+    background-color: purple; /* Purple background on hover */
+    color: white; /* White text on hover */
+    border-color: white; /* White border on hover */
+}
+
+
 header {
     text-align: center;
     margin-bottom: 30px;
